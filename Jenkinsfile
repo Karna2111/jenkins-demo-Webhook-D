@@ -1,13 +1,13 @@
-// pipeline {
-//     agent any
+pipeline {
+     agent any
 
-//     stages {
-//         stage('Execute shell script') {
-//             steps {
-//                script{
-//                 sh './script.sh'
-//                }
-//             }
-//         }
-//     }
-// }
+     stages {
+         stage('Execute shell script') {
+             steps {
+                script{
+                 sh './script.sh'
+                }
+             }
+         }
+     }
+ }
